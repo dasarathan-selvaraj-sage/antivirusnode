@@ -1,7 +1,7 @@
 const NodeClam = require("clamscan");
 const http = require('http');
 const {PassThrough} = require('stream');
-const url = 'http://localhost:8000/TestVirus.txt';
+const url = 'http://localhost:8000/TestFile.txt';
 
 const ClamScan = new NodeClam()
 ClamScan.init(
